@@ -13,6 +13,33 @@
 | **p99**     | 145.737167 ms |
 | **Std Dev** | 14.579622 ms  |
 
+### AWS EC2 (US-East-1)
+
+| Statistic   | Value         |
+|-------------|--------------|
+| **n**       | 100          |
+| **Min**     | 1.235544 ms  |
+| **Max**     | 6.930761 ms  |
+| **Average** | 1.825669 ms  |
+| **Median**  | 1.756782 ms (p50) |
+| **p95**     | 2.428181 ms  |
+| **p99**     | 2.718616 ms  |
+| **Std Dev** | 0.611982 ms  |
+
+
+### NYC Ubuntu Server on Ethernet with 500 Mb/s Spectrum ISP Plan
+| Statistic   | Value           |
+|-------------|-----------------|
+| **n**       | 100             |
+| **Min**     | 7.791008 ms     |
+| **Max**     | 43.235648 ms    |
+| **Average** | 16.553138 ms    |
+| **Median**  | 15.426109 ms (p50) |
+| **p95**     | 23.196078 ms    |
+| **p99**     | 29.696921 ms    |
+| **Std Dev** | 4.723359 ms     |
+
+
 ### NYC Mac on Wifi with 500 Mb/s Spectrum ISP Plan
 
 | Statistic   | Value          |
@@ -26,14 +53,3 @@
 | **p99**     | 33.950875 ms  |
 | **Std Dev** | 5.190664 ms   |
 
-### NYC Ubuntu Server on Ethernet with 500 Mb/s Spectrum ISP Plan
-| Statistic   | Value           |
-|-------------|-----------------|
-| **n**       | 100             |
-| **Min**     | 7.791008 ms     |
-| **Max**     | 43.235648 ms    |
-| **Average** | 16.553138 ms    |
-| **Median**  | 15.426109 ms (p50) |
-| **p95**     | 23.196078 ms    |
-| **p99**     | 29.696921 ms    |
-| **Std Dev** | 4.723359 ms     |
