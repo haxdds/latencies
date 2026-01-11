@@ -1,17 +1,54 @@
 # Latencies
 
-### Norway VPN
+**Dublin AWS EC2 Instance**  
+```
+IP:        52.214.61.152
+Hostname:  ec2-52-214-61-152.eu-west-1.compute.amazonaws.com
+City:      Dublin
+Region:    Leinster
+Country:   IE
+Org:       AS16509 Amazon.com, Inc.
+Location:  53.3331, -6.2489
+Timezone:  Europe/Dublin
+Postal:    D02
+```
 
-| Statistic   | Value          |
-|-------------|---------------|
-| **n**       | 100           |
-| **Min**     | 116.982667 ms |
-| **Max**     | 265.229542 ms |
-| **Average** | 127.906571 ms |
-| **Median**  | 125.651583 ms (p50) |
-| **p95**     | 135.249917 ms |
-| **p99**     | 145.737167 ms |
-| **Std Dev** | 14.579622 ms  |
+| Statistic   | Value        |
+|-------------|-------------|
+| **n**       | 100         |
+| **Min**     | 1.575327 ms |
+| **Max**     | 3.688822 ms |
+| **Average** | 1.919986 ms |
+| **Median**  | 1.909164 ms (p50) |
+| **p95**     | 2.085038 ms |
+| **p99**     | 3.100260 ms |
+| **Std Dev** | 0.244144 ms |
+
+
+**London AWS EC2 Instance**  
+```
+IP:        35.178.90.54
+Hostname:  ec2-35-178-90-54.eu-west-2.compute.amazonaws.com
+City:      London
+Region:    England
+Country:   GB
+Org:       AS16509 Amazon.com, Inc.
+Location:  51.5085, -0.1257
+Timezone:  Europe/London
+Postal:    E1W
+```
+
+| Statistic   | Value        |
+|-------------|-------------|
+| **n**       | 100         |
+| **Min**     | 1.995120 ms |
+| **Max**     | 4.356176 ms |
+| **Average** | 2.468992 ms |
+| **Median**  | 2.438302 ms (p50) |
+| **p95**     | 2.885785 ms |
+| **p99**     | 3.530777 ms |
+| **Std Dev** | 0.296829 ms |
+
 
 ### AWS EC2 (US-East-1)
 
@@ -54,26 +91,15 @@
 | **Std Dev** | 5.190664 ms   |
 
 
-**Dublin AWS EC2 Instance**  
-```
-IP:        52.214.61.152
-Hostname:  ec2-52-214-61-152.eu-west-1.compute.amazonaws.com
-City:      Dublin
-Region:    Leinster
-Country:   IE
-Org:       AS16509 Amazon.com, Inc.
-Location:  53.3331, -6.2489
-Timezone:  Europe/Dublin
-Postal:    D02
-```
+### Norway VPN
 
-| Statistic   | Value        |
-|-------------|-------------|
-| **n**       | 100         |
-| **Min**     | 1.575327 ms |
-| **Max**     | 3.688822 ms |
-| **Average** | 1.919986 ms |
-| **Median**  | 1.909164 ms (p50) |
-| **p95**     | 2.085038 ms |
-| **p99**     | 3.100260 ms |
-| **Std Dev** | 0.244144 ms |
+| Statistic   | Value          |
+|-------------|---------------|
+| **n**       | 100           |
+| **Min**     | 116.982667 ms |
+| **Max**     | 265.229542 ms |
+| **Average** | 127.906571 ms |
+| **Median**  | 125.651583 ms (p50) |
+| **p95**     | 135.249917 ms |
+| **p99**     | 145.737167 ms |
+| **Std Dev** | 14.579622 ms  |
