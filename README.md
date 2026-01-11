@@ -1,5 +1,33 @@
 # Latencies
 
+
+
+**Frankfurt AWS EC2 Instance**  
+```
+IP:        35.158.46.166
+Hostname:  ec2-35-158-46-166.eu-central-1.compute.amazonaws.com
+City:      Frankfurt am Main
+Region:    Hesse
+Country:   DE
+Org:       AS16509 Amazon.com, Inc.
+Location:  50.1155,8.6842
+Timezone:  Europe/Berlin
+Postal:    60306
+```
+
+| Statistic   | Value        |
+|-------------|-------------|
+| **n**       | 100         |
+| **Min**     | 1.371065 ms |
+| **Max**     | 7.637620 ms |
+| **Average** | 1.882180 ms |
+| **Median**  | 1.824472 ms (p50) |
+| **p95**     | 2.234953 ms |
+| **p99**     | 2.676782 ms |
+| **Std Dev** | 0.636120 ms |
+
+
+
 **Dublin AWS EC2 Instance**  
 ```
 IP:        52.214.61.152
