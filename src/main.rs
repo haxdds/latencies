@@ -2,11 +2,21 @@
 use std::time::Instant;
 use tokio::net::TcpStream;
 use std::time::Duration;
+use tokio_native_tls::TlsConnector;
 
 #[tokio::main]
 async fn main() {
     benchmark_location().await;
 }
+
+
+// async fn measure_tls_latency(host: &str, port: u16) -> Duration {
+//     let start = Instant::now();
+//     let stream = TcpStream::connect((host, port)).await.unwrap();
+//     let connector = TlsConnector::from(tokio_native_tls::TlsConnector::new().unwrap());
+//     let _ = connector.connect(host, stream).await;
+//     start.elapsed()
+// }
 
 
 async fn measure_tcp_latency(host: &str, port: u16) -> Duration {

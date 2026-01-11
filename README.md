@@ -53,3 +53,27 @@
 | **p99**     | 33.950875 ms  |
 | **Std Dev** | 5.190664 ms   |
 
+
+**Dublin AWS EC2 Instance**  
+```
+IP:        52.214.61.152
+Hostname:  ec2-52-214-61-152.eu-west-1.compute.amazonaws.com
+City:      Dublin
+Region:    Leinster
+Country:   IE
+Org:       AS16509 Amazon.com, Inc.
+Location:  53.3331, -6.2489
+Timezone:  Europe/Dublin
+Postal:    D02
+```
+
+| Statistic   | Value        |
+|-------------|-------------|
+| **n**       | 100         |
+| **Min**     | 1.575327 ms |
+| **Max**     | 3.688822 ms |
+| **Average** | 1.919986 ms |
+| **Median**  | 1.909164 ms (p50) |
+| **p95**     | 2.085038 ms |
+| **p99**     | 3.100260 ms |
+| **Std Dev** | 0.244144 ms |
